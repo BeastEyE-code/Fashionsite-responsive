@@ -74,12 +74,59 @@
     .text4 {
       font-size: 30px;
     }
+    .text5{
+      font-size: 60px;
+      width: 100%;
+    }
+    .text6{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+        align-items: center;
+        font-family: "Gabarito", sans-serif;
+    }
     .logoContainer {
       background: #ebd96b;
     }
     .image2 {
       margin-top: 4rem;
     }
+
+      .showcase2 {
+        background: linear-gradient(
+          1.32deg,
+          #e0c340 0.13%,
+          #dfc23e 3.97%,
+          #e1c441 7.2%,
+          #e3c743 10.13%,
+          #e4c542 12.98%,
+          #e6c744 15.99%,
+          #e7c845 19.52%,
+          #e5c643 23.96%,
+          #e6c945 30.43%,
+          #e3c743 36.49%,
+          #e9ca48 42.49%,
+          #edce49 49.35%,
+          #f0d44c 55.42%,
+          #f4d84f 61.43%,
+          #f6da52 65.74%,
+          #f7db53 72.23%,
+          #f9dd55 77.43%,
+          #f9df56 83.84%,
+          #fae157 91.52%,
+          #f9df56 97.87%
+        );
+      }
+      .showcase4 {
+        background: #e5c643;
+        padding: 10rem;
+      }
+    .btnText1{
+      line-height: 10px;
+    }
+
 
     @media (max-width: 360px) {
       .text3 {
@@ -89,6 +136,13 @@
         text-align: justify;
         align-items: center;
       }
+      .text5{
+      display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        text-align: justify;
+        align-items: center;
+    }
       .showcase1 {
         display: flex;
         flex-direction: column;
@@ -97,12 +151,18 @@
         margin-left: 2rem;
         padding: 1rem 0rem 1rem 0rem;
       }
+      .showcase4 {
+        background: #e5c643;
+        padding: 0rem;
+      }
+  
       .text4 {
         font-size: 15px;
       }
       .logoContainer {
         background: none;
       }
+      
     }
   </style>
 
@@ -156,7 +216,7 @@
 
     <!-- Showcase -->
 
-    <section class="container mt-4">
+  <section class="container mt-4 ">
       <div class="row">
         <div class="d-flex col rounded-5" style="background: #f4f6f5;">
           <div class="col p-lg-5 py-md-2 p-md-0 showcase1">
@@ -189,8 +249,8 @@
 
     <!-- logpContainer -->
 
-    <section>
-      <div class="col mt-5 logoContainer p-4">
+<section>
+      <div class="col mt-5 logoContainer p-4 ">
         <div
           class="container-fluid d-flex px-5 justify-content-center align-content-center align-items-center"
         >
@@ -238,11 +298,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
     <!-- Cards -->
-    <section>
-      <div class="col">
+<section>
+      <div class="col ">
         <div class="container mb-5 mt-5">
           <h1 class="mb-2 text1">New Arrivals</h1>
           <div class="d-lg-flex d-md-block font2">
@@ -305,7 +365,194 @@
           </div>
         </div>
       </div>
+    </section> 
+
+    <!-- showcase2 -->
+
+<section>
+      <div class="container-fluid showcase2 g-0 ">
+        <div class="col d-flex justify-content-center align-items-center align-content-center">
+          <div class="col">
+            <img
+              class="img-fluid w-100 d-none d-lg-block"
+              src="/asset/image 12.png"
+              alt="man_listening_to_music_in_headphone"
+            />
+          </div>
+          <div class="col-lg col-sm-6 p-5">
+              <h1 class="text3">
+                <span class="bg-light text-dark shadow"
+                  >PAYDAY</span
+                >
+                
+              </h1>
+              <h1 class="text3">SALE NOW</h1>
+              <p class="text2">
+                Spend minimal $100 get 30% off voucher code for your next
+                purchase
+              </p>
+              <h3 class="">1 June - 10 June 2021</h3>
+              <p>*Terms & Conditions apply</p>
+              <button class="btn btn-dark btn-lg">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+
+    <!-- cards2 -->
+
+<section>
+      <div class="col ">
+        <div class="container mb-5 mt-5">
+          <h1 class="mb-2 text1">Young’s Favourite</h1>
+          <div class="d-lg-flex d-md-block font2">
+            <div class="col d-flex p-5">
+              <div class="text-dark">
+                <div class="col rounded-3">
+                  <img src="/Asset/Rectangle 49.png" class="w-100" alt="" />
+                </div>
+                <div class="col">
+                  <p class="card-text mt-4">
+                    Trending on instagram
+                  </p>
+                  <div
+                    class="d-flex align-content-center justify-content-center"
+                  >
+                    <p class="">Explore Now!</p>
+                    <i class="bi bi-arrow-right btn ms-auto"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex p-5">
+              <div class="text-dark">
+                <div class="col rounded-3">
+                  <img src="/Asset/Rectangle 50.png" class="w-100" alt="" />
+                </div>
+                <div class="col">
+                  <p class="card-text mt-4">
+                    All Under $40
+                  </p>
+                  <div
+                    class="d-flex align-content-center justify-content-center"
+                  >
+                    <p class="">Explore Now!</p>
+                    <i class="bi bi-arrow-right btn ms-auto"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!-- showcase3 -->
+
+    <section class="container mt-4  ">
+      <div class="row">
+        <div class="d-flex col align-items-center">
+          <div class="col p-lg-5 py-md-2 p-md-0 showcase1">
+            <h1 class="text5 font1">
+              DOWNLOAD APP & GET THE VOUCHER!
+            </h1>
+            <p class="text4">
+             Get 30% off for first transaction using Rondovision mobile app for
+              now.
+            </p>
+            <div class="col g-0 d-flex">
+            <div class="col-0 ">
+
+              <button class="btn">
+               <img src="/Asset/Rectangle 55.png" class="img-fluid" alt="" />
+              </button>
+            </div>
+            <div class="col-0 ">
+
+              <button class="btn">
+               <img src="/Asset/Rectangle 18.png" class="img-fluid" alt="" />
+              </button>
+            </div>
+            </div>
+          </div>
+          <div class="col justify-content-center">
+            <img
+              class="w-75 image2 d-none d-sm-none d-md-none d-lg-block"
+              src="/asset/Mobile app.png"
+              alt="man_listening_to_music_in_headphone"
+            />
+          </div>
+        </div>
+      </div>
     </section>
+
+<!-- Showcase4 -->
+
+<section>
+  <div class="col border showcase4 d-flex justify-content-center align-items-center mt-4">
+    <div class="text-center">
+    <h1 class="text6">JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h1>
+    <p class="text2">Type your email down below and be young wild generation</p>
+     <div class="input-group news-input  showcaseForm">
+          <input
+            type="text"
+            class="form-control w-25"
+            placeholder="Enter Email"
+          />
+          <button class="btn btn-dark btn-lg" type="button">Send</button>
+        </div>
+    </div>
+  </div>
+</section>
+<div class="col bg-black p-5">
+  <div class="container d-lg-flex d-md-block justify-content-center align-items-center p-5">
+  <div class="col-lg-6 col-md-10 text-lg-start  text-md-center">
+              <h1 class="font1 mb-3 text-light">Fashion</h1>
+              <p class="w-50" style="color: #8E8E8E;">Complete your style with awesome clothes from us.</p>
+               <button class="rounded-3 fs-5 border-0 p-2" style="background: #EBD96B;"><i class="bi bi-facebook" "></i></button>
+              <button  class="rounded-3 fs-5 border-0 p-2" style="background: #EBD96B;"><i class="bi bi-instagram"></i></button>
+              <button  class="rounded-3 fs-5 border-0 p-2" style="background: #EBD96B;"><i class="bi bi-twitter"></i></button>
+              <button  class="rounded-3 fs-5 border-0 p-2" style="background: #EBD96B;"><i class="bi bi-linkedin"></i></button>
+            </div>
+  <div class="col-lg-2 col-md-4 d-flex text-center justify-content-center align-content-center" style="margin-top: 6em;">
+     <ul class="list-unstyled">
+                <h2 class="mb-4" style="color: #D9D9D9;">COMPANY</h2>
+                <li class="mb-4" style="color: #8E8E8E;">About</li>
+                <li class="mb-4" style="color: #8E8E8E;">Contact Us</li>
+                <li class="mb-4" style="color: #8E8E8E;">Support</li>
+                <li class="mb-4" style="color: #8E8E8E;">Career</li>
+              </ul>
+  </div>
+  
+  <div class="col-lg-2 col-md-4 d-flex text-center justify-content-center align-content-center" style="margin-top: 6em;">
+     <ul class="list-unstyled">
+                <h2 class="mb-4" style="color: #D9D9D9;">Quick link</h2>
+                <li class="mb-4" style="color: #8E8E8E;">Share Location</li>
+                <li class="mb-4" style="color: #8E8E8E;">Order Tracking</li>
+                <li class="mb-4" style="color: #8E8E8E;">Size Guide</li>
+                <li class="mb-4" style="color: #8E8E8E;">FAQs</li>
+              </ul>
+  </div>
+
+  <div class="col-lg-2 col-md-4 d-flex text-center justify-content-center align-content-center" style="margin-top: em;">
+     <ul class="list-unstyled">
+                <h2 class="mb-4" style="color: #D9D9D9;">Legal</h2>
+                <li class="mb-4" style="color: #8E8E8E;">Terms & Condition</li>
+                <li class="mb-4" style="color: #8E8E8E;">Privacy Policy</li>
+              </ul>
+  </div>
+</div>
+</div>
+<section>
+
+
+</section>
+
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
