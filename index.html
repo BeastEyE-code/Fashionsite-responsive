@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5a214790e0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Fashion Store</title>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@800&family=Montserrat:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      /* font-family: "Gabarito", sans-serif;
+      font-family: "Montserrat", sans-serif;
+      font-family: "Open Sans", sans-serif;
+      font-family: "Roboto", sans-serif; */
+    }
+    .font1 {
+      font-family: "Gabarito", sans-serif;
+    }
+    .font2 {
+      font-family: "Montserrat", sans-serif;
+    }
+    .font3 {
+      font-family: "Open Sans", sans-serif;
+    }
+    .font4 {
+      font-family: "Roboto", sans-serif;
+    }
+    .text1 {
+      font-family: "Gabarito", sans-serif;
+    }
+    .image {
+      width: 25px;
+    }
+    .text2 {
+      transition: 1s ease-in-out;
+      font-family: "Roboto", sans-serif;
+    }
+    .text2:hover {
+      transform: scale(1.007);
+    }
+    .btn {
+      transition: 2s ease-in-out;
+      font-family: "Roboto", sans-serif;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+    }
+    .yellowBg {
+      background: #ebd96b;
+    }
+    .text3 {
+      font-family: "Gabarito", sans-serif;
+      font-size: 80px;
+    }
+    .text4 {
+      font-size: 30px;
+    }
+    .logoContainer {
+      background: #ebd96b;
+    }
+    .image2 {
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 360px) {
+      .text3 {
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        text-align: justify;
+        align-items: center;
+      }
+      .showcase1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
+        padding: 1rem 0rem 1rem 0rem;
+      }
+      .text4 {
+        font-size: 15px;
+      }
+      .logoContainer {
+        background: none;
+      }
+    }
+  </style>
+
+  <body>
+    <!-- NavBar -->
+    <section>
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#"
+            ><img src="/Asset/Vector.png" class="image me-1" alt="" />
+            <span class="fs-4 text1">FASHION</span>
+          </a>
+          <button
+            class="navbar-toggler btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto me-2 my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px;"
+            >
+              <li class="nav-item">
+                <a class="nav-link text2" aria-current="page" href="#"
+                  >CATELOGUE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text2" href="#">FASHION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text2" href="#">FAVORITE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text2" href="#">LIFESTYLE</a>
+              </li>
+              <button class="btn bg-black text-light" type="submit">
+                SIGN UP
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Showcase -->
+
+    <section class="container mt-4">
+      <div class="row">
+        <div class="d-flex col rounded-5" style="background: #f4f6f5;">
+          <div class="col p-lg-5 py-md-2 p-md-0 showcase1">
+            <h1 class="w-25 text3">
+              <span class="bg-light text-dark shadow pe-3">LET’S</span> EXPLORE
+              <span class="yellowBg pe-4">UNIQUE</span> CLOTHES.
+            </h1>
+            <p class="text4">
+              Live for Influential and Innovative fashion!
+            </p>
+            <div class="d-flex">
+              <img
+                src="/Asset/Vector 9.png"
+                class="w-25 h-25 mt-3 me-2 d-none d-sm-none d-md-block"
+                alt=""
+              />
+              <button class="btn btn-dark btn-lg">Shop Now</button>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              class="w-100 image2 d-none d-sm-none d-md-none d-lg-block"
+              src="/asset/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png"
+              alt="man_listening_to_music_in_headphone"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- logpContainer -->
+
+    <section>
+      <div class="col mt-5 logoContainer p-4">
+        <div
+          class="container-fluid d-flex px-5 justify-content-center align-content-center align-items-center"
+        >
+          <div class="col">
+            <img
+              src="/Asset/Rectangle_36-removebg-preview.png"
+              class="img-fluid w-50"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Asset/Rectangle_38-removebg-preview.png"
+              class="img-fluid w-50"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Asset/Rectangle_41-removebg-preview.png"
+              class="img-fluid w-50"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Asset/Rectangle_43-removebg-preview.png"
+              class="img-fluid w-50"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Asset/Rectangle_44-removebg-preview.png"
+              class="img-fluid w-50"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Asset/Rectangle_45-removebg-preview.png"
+              class="img-fluid w-75"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section>
+      <div class="col">
+        <div class="container mb-5 mt-5">
+          <h1 class="mb-2 text1">New Arrivals</h1>
+          <div class="d-lg-flex d-md-block font2">
+            <div class="col d-flex p-5">
+              <div class="text-dark">
+                <div class="col rounded-3">
+                  <img src="/Asset/Rectangle 20.png" class="w-100" alt="" />
+                </div>
+                <div class="col">
+                  <p class="card-text mt-4">
+                    Hoodies & Sweetshirt
+                  </p>
+                  <div
+                    class="d-flex align-content-center justify-content-center"
+                  >
+                    <p class="">Explore Now!</p>
+                    <i class="bi bi-arrow-right btn ms-auto"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex p-5">
+              <div class="text-dark">
+                <div class="col rounded-3">
+                  <img src="/Asset/Rectangle 21.png" class="w-100" alt="" />
+                </div>
+                <div class="col">
+                  <p class="card-text mt-4">
+                    Coats & Parkas
+                  </p>
+                  <div
+                    class="d-flex align-content-center justify-content-center"
+                  >
+                    <p class="">Explore Now!</p>
+                    <i class="bi bi-arrow-right btn ms-auto"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex p-5">
+              <div class="text-dark">
+                <div class="col rounded-3">
+                  <img src="/Asset/Rectangle 22.png" class="w-100" alt="" />
+                </div>
+                <div class="col">
+                  <p class="card-text mt-4">
+                    Tees & T-shirt
+                  </p>
+                  <div
+                    class="d-flex align-content-center justify-content-center"
+                  >
+                    <p class="">Explore Now!</p>
+                    <i class="bi bi-arrow-right btn ms-auto"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
+</html>
